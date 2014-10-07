@@ -9,7 +9,23 @@
 // $gray: #eee
 // $dgray: #888
 // Common blocks
+$default-transition-duration: 0.3s
+%wrap
+	width: 960px
+	margin-left: auto
+	margin-right: auto
+	+r(w980)
+		width: 100%
+.wrap
+	width: 960px
+	margin-left: auto
+	margin-right: auto
+	+r(w980)
+		width: 100%
+
+
 body
+	margin: 0
 	font-size: 14px 
 	font-family: Arial, sans-serif 
 	line-height: 1.4
@@ -23,12 +39,222 @@ body
 
 // Header
 // --------------------------------------------------
+.header
+	margin: 0 -15px
+	.header-in
+		+clr
+		@extend %wrap
+		+r(w980)
+			padding: 0 30px
+	.header-logo
+		float: left
+		margin: 20px 0 20px 0px
+		+s(logo)
+		+r(w768)
+			margin: 20px 0 20px 0px
 
-// Footer
-// --------------------------------------------------
+.nav-ico
+	+s(nav)
+	display: none
+	float: right
+	margin-top: 43px
+	cursor: pointer
+	+r(w768)
+		margin-right: 0px
+		display: inline-block
+.nav-wrap
+	+r(w768)
+		margin: 0 -30px
+.nav
+	margin: 60px 0 0px
+	float: right 
+	+r(w768)
+		// display: none
+		margin: 42px 0px 0
+		float: none
+		clear: both
+	& > .nav-list
+		padding: 0
+		+clr
+		list-style: none
+		& > .nav-list-item
+			float: left
+			margin-left: 10px
+			position: relative
+			&:first-child
+				margin-left: 0
+			+r(w768)
+				float: none
+				margin-left: 0
+				margin-bottom: 1px
+				position: relative
+				&:before
+					content: ""
+					+s(i-arr)
+					position: absolute
+					top: 16px
+					right: 35px
+				&:hover
+					&:before
+						+rotate(180deg)
+			&:hover, &.is-drop
+				.dropdown
+					display: block
+				&:before
+					+rotate(180deg)
+				.nav-list-link
+					background: #f5f5f5
+			& > .nav-list-link
+				display: block
+				padding: 10px
+				font-size: 16px
+				text-transform: uppercase
+				font-weight: bold
+				color: #000
+				+r(w768)
+					padding: 10px 30px
+					background: #F5F5F5
+				&:hover
+					text-decoration: none
+.dropdown
+	display: none
+	width: 165px
+	padding: 0
+	list-style: none
+	position: absolute
+	left: 0
+	right: 0
+	top: 100%
+	z-index: 100
+	+r(w768)
+		width: 100%
+		position: static
+	.dropdown-item
+		padding: 0
+	.dropdown-link
+		display: block
+		padding: 10px
+		background: #F5F5F5
+		font-size: 13px
+		font-weight: bold
+		+r(w768)
+			padding: 10px 33px
+			background: #FFF
+			border-bottom: 1px solid #f5f5f5  
+			color: #000 
+		&:hover
+			color: #aac300
+			text-decoration: none
 
-// 
-// --------------------------------------------------
-// 
-// --------------------------------------------------
+
+
+
+.slider
+	margin: 0 -15px 50px
+	.slider-in
+		margin: 0
+	.carousel-inner
+		.item
+			height: 350px
+			+cover
+	.carousel-indicators
+		width: 960px
+		text-align: right
+		bottom: -50px
+		li
+			width: 8px
+			height: 8px
+			+border-radius(4px)
+			margin: 0
+			background: #000
+			&.active
+				background: #3C7D23 
+
+.footer
+	margin: 40px 0 30px
+	+r(w980)
+	margin: 40px -15px 30px
+	.footer-in
+		position: relative
+	.footer-nav
+		display: inline-block
+		+r(w980)
+			width: 100%
+			margin-bottom: 35px
+			text-align: center
+		.footer-nav-list
+			margin: 0
+			+clr
+			list-style: none
+			+r(w980)
+				padding: 0
+				display: block
+		.footer-nav-item
+			float: left
+			margin-left: 15px
+			+r(w980)
+				float: none
+				margin-left: 0
+			&:first-child
+				margin-left: 0
+		.footer-nav-link
+			font-size: 13px
+			font-weight: bold
+			color: #828282
+			+r(w980)
+				display: block
+				height: 45px
+				line-height: 45px
+				border-bottom: 1px solid #F5F5F5
+			&:hover
+				text-decoration: none
+				color: #ccc 
+	.footer-social
+		display: inline-block
+		+r(w980)
+			width: 100%
+			margin-bottom: 15px
+			text-align: center
+		.footer-social-list
+			margin: 0
+			+clr
+			list-style: none
+			+r(w980)
+				display: inline-block
+				padding: 0
+		.footer-social-item
+			float: left
+			margin-left: 11px
+			&:first-child
+				margin-left: 0
+		.footer-social-link
+			display: block
+			+transition(all linear 0.2s)
+			&:hover
+				+transition(all linear 0.2s)
+				+opacity(0.8)
+	.footer-copy
+		position: absolute
+		right: 18px
+		top: 0
+		display: inline-block
+		font-size: 13px
+		+r(w980)
+			position: static
+			width: 100%
+			font-size: 11px
+			text-align: center
+		p
+			margin: 0
+
+.fb
+	+s(fb)
+.yt
+	+s(yt)
+
+
+
+
+
+
 
