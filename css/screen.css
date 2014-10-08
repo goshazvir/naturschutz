@@ -2174,8 +2174,16 @@ body { margin: 0; font-size: 14px; font-family: Arial, sans-serif; line-height: 
 
 @media only screen and (max-width: 400px) { .w400-fullsize { width: 100% !important; } }
 
+@media only screen and (max-width: 480px) { .w480-fullsize { width: 100% !important; } }
+
+@media only screen and (max-width: 480px) { .article { overflow: hidden; padding-bottom: 5px; margin-bottom: 15px; border-bottom: 1px solid whitesmoke; } }
 .article .article-title { margin-bottom: 5px; font-size: 13px; font-weight: bold; color: #3c7d23; }
+@media only screen and (max-width: 980px) { .article .article-title { text-align: center; } }
+@media only screen and (max-width: 460px) { .article .article-title { text-align: left; } }
 .article .article-media { height: 125px; margin-bottom: 5px; overflow: hidden; }
+@media only screen and (max-width: 980px) { .article .article-media { text-align: center; } }
+@media only screen and (max-width: 480px) { .article .article-media { width: 200px; margin-left: 20px; float: right; } }
+@media only screen and (max-width: 460px) { .article .article-media { float: none; margin-left: 0; } }
 .article .article-media img { max-width: 100%; }
 .article .article-content { font-size: 13px; font-weight: bold; margin-bottom: 5px; }
 .article .article-content p { margin: 0; }

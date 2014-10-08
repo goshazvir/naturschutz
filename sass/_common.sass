@@ -478,17 +478,39 @@ body
 .w400-fullsize
 	+r(w400)
 		width: 100% !important
+.w480-fullsize
+	+r(w480)
+		width: 100% !important
+
 
 .article
+	+r(w480)	
+		overflow: hidden
+		padding-bottom: 5px
+		margin-bottom: 15px
+		border-bottom: 1px solid #f5f5f5
 	.article-title
 		margin-bottom: 5px
 		font-size: 13px
 		font-weight: bold
-		color: #3C7D23 
+		color: #3C7D23
+		+r(w980)
+			text-align: center
+		+r(w460)
+			text-align: left
 	.article-media
 		height: 125px
 		margin-bottom: 5px
 		overflow: hidden
+		+r(w980)
+			text-align: center
+		+r(w480)
+			width: 200px
+			margin-left: 20px
+			float: right
+		+r(w460)
+			float: none
+			margin-left: 0
 		img
 			max-width: 100% 
 	.article-content
