@@ -2161,10 +2161,15 @@ body { margin: 0; font-size: 14px; font-family: Arial, sans-serif; line-height: 
 .f-share { font-size: 0; display: inline-block; background: url('../img/icons-s74071b11c5.png') 0 0 no-repeat; width: 55px; height: 19px; }
 .f-share:hover { opacity: 0.8; filter: alpha(opacity=80); }
 
-.bird { height: 250px; position: relative; }
-.bird .bird-media { height: 250px; overflow: hidden; }
-.bird .bird-media img { height: 100%; }
-.bird .bird-overlay { position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(60, 125, 35, 0.8); color: white; }
-.bird .bird-title { padding: 10px; margin-bottom: 0px; font-size: 13px; font-weight: bold; text-transform: uppercase; }
-.bird .bird-content { padding: 10px; font-size: 13px; font-weight: bold; }
+.bird { height: 250px; position: relative; cursor: pointer; }
+@media only screen and (max-width: 768px) { .bird { margin-bottom: 20px; } }
+.bird:hover .bird-content { display: block; }
+.bird:hover .bird-overlay { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
+.bird:hover .bird-title { position: static; background: transparent; }
+.bird .bird-media { height: 250px; overflow: hidden; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
+.bird .bird-overlay { background: rgba(60, 125, 35, 0.8); color: white; }
+.bird .bird-title { position: absolute; bottom: 0; left: 0; right: 0; background: rgba(60, 125, 35, 0.8); padding: 10px; margin-bottom: 0px; font-size: 13px; font-weight: bold; text-transform: uppercase; }
+.bird .bird-content { display: none; padding: 10px; font-size: 13px; font-weight: bold; }
 .bird .bird-content p { margin-bottom: 20px; }
+
+@media only screen and (max-width: 400px) { .w400-fullsize { width: 100% !important; } }

@@ -433,31 +433,55 @@ body
 .bird
 	height: 250px
 	position: relative
+	cursor: pointer
+	+r(w768)
+		margin-bottom: 20px
+	&:hover
+		.bird-content
+			display: block
+		.bird-overlay
+			position: absolute
+			top: 0
+			bottom: 0
+			left: 0
+			right: 0
+		.bird-title
+			position: static
+			background: transparent 
 	.bird-media
 		height: 250px
 		overflow: hidden
-		img
-			height: 100%
+		+cover
 	.bird-overlay
+		// position: absolute
+		// top: 0
+		// bottom: 0
+		// left: 0
+		// right: 0
+		background: rgba(#3c7d23, .8)
+		color: #fff 
+	.bird-title
 		position: absolute
-		top: 0
 		bottom: 0
 		left: 0
 		right: 0
 		background: rgba(#3c7d23, .8)
-		color: #fff 
-	.bird-title
 		padding: 10px
 		margin-bottom: 0px
 		font-size: 13px
 		font-weight: bold
 		text-transform: uppercase
 	.bird-content
+		display: none
 		padding: 10px
 		font-size: 13px
 		font-weight: bold
 		p
 			margin-bottom: 20px
+
+.w400-fullsize
+	+r(w400)
+		width: 100% !important
 
 
 
