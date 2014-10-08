@@ -168,7 +168,8 @@ body
 
 
 .slider
-	margin: 0 -15px 50px
+	// margin: 0 -15px 50px
+	margin: 0 -15px
 	.slider-in
 		margin: 0
 	.carousel-inner
@@ -365,11 +366,17 @@ body
 
 .content
 	padding: 40px 0px 30px
+	margin: 0 -15px
 	font-size: 13px
 	color: #000
 	font-weight: bold
+	&.m-gray
+		background: #f5f5f5 
 	+r(w980)
 		padding: 0 0 15px
+	.content-in
+		@extend %wrap
+		padding: 0 15px
 	.h2
 		font-size: 16px
 		font-weight: bold
@@ -385,10 +392,24 @@ body
 	p
 		margin-bottom: 20px
 	.content-img
+		margin-top: 45px
+		position: relative
 		+r(w980)
 			text-align: center
 		img
 			max-width: 100%
+		.i-play
+			position: absolute
+			top: 50%
+			left: 50%
+			margin-top: -30px
+			margin-left: -43px
+
+
+.i-play
+	+s(play)
+	display: inline-block
+	cursor: pointer
 
 .list
 	padding: 0
@@ -400,8 +421,13 @@ body
 			font-size: 13px
 			font-weight: bold
 			display: inline-block 
-	// .list-link
 
+.f-share
+	font-size: 0
+	display: inline-block
+	+s(f-share)
+	&:hover
+		+opacity(0.8)
 
 
 
