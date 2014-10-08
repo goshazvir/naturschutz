@@ -2173,3 +2173,9 @@ body { margin: 0; font-size: 14px; font-family: Arial, sans-serif; line-height: 
 .bird .bird-content p { margin-bottom: 20px; }
 
 @media only screen and (max-width: 400px) { .w400-fullsize { width: 100% !important; } }
+
+.article .article-title { margin-bottom: 5px; font-size: 13px; font-weight: bold; color: #3c7d23; }
+.article .article-media { height: 125px; margin-bottom: 5px; overflow: hidden; }
+.article .article-media img { max-width: 100%; }
+.article .article-content { font-size: 13px; font-weight: bold; margin-bottom: 5px; }
+.article .article-content p { margin: 0; }
