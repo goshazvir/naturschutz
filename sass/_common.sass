@@ -365,8 +365,42 @@ body
 
 .content
 	padding: 40px 0px 30px
-	.content-in
-		@extend %wrap
+	font-size: 13px
+	color: #000
+	font-weight: bold
+	+r(w980)
+		padding: 0 0 15px
+	.h2
+		font-size: 16px
+		font-weight: bold
+		text-transform: uppercase
+		color: #3C7D23
+		+r(w980)
+			text-align: center
+	a
+		color: #AAC300
+		text-decoration: underline
+		&:hover
+			text-decoration: none
+	p
+		margin-bottom: 20px
+	.content-img
+		+r(w980)
+			text-align: center
+		img
+			max-width: 100%
+
+.list
+	padding: 0
+	list-style: none
+	.list-item
+		&:before
+			content: ">"
+			margin-right: 5px
+			font-size: 13px
+			font-weight: bold
+			display: inline-block 
+	// .list-link
 
 
 

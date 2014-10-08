@@ -9,9 +9,32 @@ html
       include includes/_header
       .container-fluid
         .row
-          .col-md-12
+          .col-gl-6.col-md-6
             .content
               .content-in
-                |  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ab ipsa quidem hic, tenetur soluta eveniet aperiam, similique est nobis ex nihil doloremque qui necessitatibus saepe quibusdam! Vero, dolores, quis.
+                h2.h2 Headline Lebensraum
+                p 
+                  | Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, 
+                  a(href="#") Geologie 
+                  | in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
+                  a(href="#") Landwirtschaft 
+                  | ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, 
+                  a(href="#") Klima 
+                  | eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+                p
+                  | Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat 
+                  a(href="#") Wildfütterungsstandorte
+                  | . Ait amet adipiscing sem neque sed ipsum.
+                h2.h2 Links zum Thema
+                ul.list
+                  li.list-item
+                    a(href="#").list-link Artikel – Ostalpine Kristallinzone
+                  li.list-item
+                    a(href="#").list-link Information – Lorem ipsum
+          .col-gl-6.col-md-6
+            .content
+              .content-in
+                .content-img
+                  img(src="img/img.jpg", alt="")
       include includes/_footer
     script(data-headjs-load='js/init.js', src='js/lib/head.js')
