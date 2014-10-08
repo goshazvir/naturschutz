@@ -2161,7 +2161,7 @@ body { margin: 0; font-size: 14px; font-family: Arial, sans-serif; line-height: 
 .f-share { font-size: 0; display: inline-block; background: url('../img/icons-s74071b11c5.png') 0 0 no-repeat; width: 55px; height: 19px; }
 .f-share:hover { opacity: 0.8; filter: alpha(opacity=80); }
 
-.bird { height: 250px; position: relative; cursor: pointer; }
+.bird { height: 250px; margin-bottom: 20px; position: relative; cursor: pointer; }
 @media only screen and (max-width: 768px) { .bird { margin-bottom: 20px; } }
 .bird:hover .bird-content { display: block; }
 .bird:hover .bird-overlay { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
