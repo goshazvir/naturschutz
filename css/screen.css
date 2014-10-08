@@ -2140,6 +2140,7 @@ body { margin: 0; font-size: 14px; font-family: Arial, sans-serif; line-height: 
 
 .content { padding: 40px 0px 30px; margin: 0 -15px; font-size: 13px; color: black; font-weight: bold; }
 .content.m-gray { background: whitesmoke; }
+.content.m-mod { padding-top: 10px; }
 @media only screen and (max-width: 980px) { .content { padding: 0 0 15px; } }
 .content .content-in { padding: 0 15px; }
 .content .h2 { font-size: 16px; font-weight: bold; text-transform: uppercase; color: #3c7d23; }
@@ -2159,3 +2160,5 @@ body { margin: 0; font-size: 14px; font-family: Arial, sans-serif; line-height: 
 
 .f-share { font-size: 0; display: inline-block; background: url('../img/icons-s74071b11c5.png') 0 0 no-repeat; width: 55px; height: 19px; }
 .f-share:hover { opacity: 0.8; filter: alpha(opacity=80); }
+
+.bird .bird-media img { max-width: 100%; }
