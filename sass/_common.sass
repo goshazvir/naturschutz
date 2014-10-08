@@ -70,15 +70,24 @@ body
 		+s(nav_m)
 .nav-wrap
 	+r(w768)
-		margin: 0 -30px
-	+r(w480)
-		margin: 0 -14px
+		position: absolute
+		left: 0
+		right: 0
+		top: 100%
+		z-index: 100
+	// +r(w768)
+	// 	margin: 0 -30px
+	// +r(w480)
+	// 	margin: 0 -14px
 .nav
 	margin: 60px 0 0px
-	float: right 
+	float: right
+	+r(w768)
+		margin: 0px 0px 0
 	+r(w768)
 		// display: none
-		margin: 42px 0px 0
+		// margin: 42px 0px 0
+		margin: 0px 0px 0
 		float: none
 		clear: both
 	& > .nav-list
@@ -91,11 +100,11 @@ body
 			margin-left: 10px
 			position: relative
 			&:first-child
-				margin-left: 0
+				// margin-left: 0
 			+r(w768)
 				float: none
 				margin-left: 0
-				margin-bottom: 1px
+				border-bottom: 1px solid #fff
 				position: relative
 				&:before
 					content: ""
@@ -272,7 +281,7 @@ body
 	display: none
 	+s(top)
 	position: absolute
-	bottom: 0px
+	bottom: 12px
 	right: 20px
 	cursor: pointer
 	+r(w980)
@@ -301,6 +310,63 @@ body
 		margin-right: -40px
 		+s(right)
 
+.part
+	margin: 0 -15px
+	padding: 25px 0
+	background: #F5F5F5 
+	.part-in
+		@extend %wrap
+	.part-title
+		font-size: 14px
+		font-weight: bold
+		text-transform: uppercase
+		+r(w980)
+			padding: 0 30px
+			margin-bottom: 10px
+			text-align: center
+		+r(w480)
+			margin-bottom: 25px
+	.part-wrap
+		font-size: 0
+		.part-row
+			width: 50%
+			font-size: 14px
+			display: inline-block
+			vertical-align: middle
+			font-size: 0
+			+r(w980)
+				width: 100%
+				margin-top: 40px
+				&:first-child
+					margin-top: 0
+			+r(w480)
+				margin-top: 0
+			.part-row-label
+				display: inline-block
+				width: 50%
+				+r(w980)
+					text-align: center
+				+r(w480)
+					width: 100%
+					margin-bottom: 35px
+	.part-logo
+		display: inline-block
+		&.part-logo1
+			+s(part1)
+		&.part-logo2
+			+s(part2)
+		&.part-logo3
+			+s(part3)
+		&.part-logo4
+			+s(part4)
+
+.align-center
+	text-align: center
+
+.content
+	padding: 40px 0px 30px
+	.content-in
+		@extend %wrap
 
 
 
