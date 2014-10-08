@@ -2161,4 +2161,10 @@ body { margin: 0; font-size: 14px; font-family: Arial, sans-serif; line-height: 
 .f-share { font-size: 0; display: inline-block; background: url('../img/icons-s74071b11c5.png') 0 0 no-repeat; width: 55px; height: 19px; }
 .f-share:hover { opacity: 0.8; filter: alpha(opacity=80); }
 
-.bird .bird-media img { max-width: 100%; }
+.bird { height: 250px; position: relative; }
+.bird .bird-media { height: 250px; overflow: hidden; }
+.bird .bird-media img { height: 100%; }
+.bird .bird-overlay { position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(60, 125, 35, 0.8); color: white; }
+.bird .bird-title { padding: 10px; margin-bottom: 0px; font-size: 13px; font-weight: bold; text-transform: uppercase; }
+.bird .bird-content { padding: 10px; font-size: 13px; font-weight: bold; }
+.bird .bird-content p { margin-bottom: 20px; }
