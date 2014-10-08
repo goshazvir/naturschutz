@@ -46,12 +46,16 @@ body
 		@extend %wrap
 		+r(w980)
 			padding: 0 30px
+		+r(w480)
+			padding: 0 14px
 	.header-logo
 		float: left
 		margin: 20px 0 20px 0px
 		+s(logo)
 		+r(w768)
 			margin: 20px 0 20px 0px
+		+r(w480)
+			+s(logo_m)
 
 .nav-ico
 	+s(nav)
@@ -62,9 +66,13 @@ body
 	+r(w768)
 		margin-right: 0px
 		display: inline-block
+	+r(w480)
+		+s(nav_m)
 .nav-wrap
 	+r(w768)
 		margin: 0 -30px
+	+r(w480)
+		margin: 0 -14px
 .nav
 	margin: 60px 0 0px
 	float: right 
@@ -75,6 +83,7 @@ body
 		clear: both
 	& > .nav-list
 		padding: 0
+		margin: 0
 		+clr
 		list-style: none
 		& > .nav-list-item
@@ -161,6 +170,13 @@ body
 		width: 960px
 		text-align: right
 		bottom: -50px
+		margin-left: -480px
+		padding-right: 17px
+		+r(w980)
+			display: none
+			width: 100%
+			margin-left: 0
+			left: initial 
 		li
 			width: 8px
 			height: 8px
@@ -169,13 +185,17 @@ body
 			background: #000
 			&.active
 				background: #3C7D23 
-
+	.carousel-control
+		display: none
+		+r(w980)
+			display: block
 .footer
 	margin: 40px 0 30px
 	+r(w980)
 	margin: 40px -15px 30px
 	.footer-in
 		position: relative
+		@extend %wrap
 	.footer-nav
 		display: inline-block
 		+r(w980)
@@ -184,6 +204,7 @@ body
 			text-align: center
 		.footer-nav-list
 			margin: 0
+			padding: 0
 			+clr
 			list-style: none
 			+r(w980)
@@ -247,10 +268,39 @@ body
 		p
 			margin: 0
 
+.top
+	display: none
+	+s(top)
+	position: absolute
+	bottom: 0px
+	right: 20px
+	cursor: pointer
+	+r(w980)
+		display: block
+
 .fb
 	+s(fb)
 .yt
 	+s(yt)
+
+.carousel-control
+	width: 30px
+	height: 45px
+	top: initial
+	bottom: 16px
+	span
+		display: none
+		&:before
+			content: none
+	&.left
+		left: 50%
+		margin-left: -40px
+		+s(left)
+	&.right
+		right: 50%
+		margin-right: -40px
+		+s(right)
+
 
 
 

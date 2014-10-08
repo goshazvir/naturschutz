@@ -1,0 +1,43 @@
+.container-fluid
+  .row
+    .col-md-12.col-lg-12.col-sm-12
+      header.header#js-top
+        .header-in
+          a.header-logo(href="#")
+          .nav-ico.js-nav-mobile
+          .nav-wrap
+            .nav(style="display: block;")
+              ul.nav-list
+                li.nav-list-item
+                  a(href="#").nav-list-link Gebiet
+                  ul.dropdown
+                    li.dropdown-item
+                      a(href="#").dropdown-link Übersicht
+                    li.dropdown-item
+                      a(href="#").dropdown-link Gemeinden
+                    li.dropdown-item
+                      a(href="#").dropdown-link Lebensräume
+                li.nav-list-item
+                  a(href="#").nav-list-link Natur
+                li.nav-list-item
+                  a(href="#").nav-list-link Erleben
+                li.nav-list-item
+                  a(href="#").nav-list-link Kontakt
+
+.container-fluid
+  .row
+    .col-md-12.col-lg-12.col-sm-12
+      .slider
+        .slider-in
+          #carousel-example-generic.carousel.slide.carousel-fade(data-ride='carousel')
+            ol.carousel-indicators
+              li.active(data-target='#carousel-example-generic', data-slide-to='0')
+              li(data-target='#carousel-example-generic', data-slide-to='1')
+            .carousel-inner
+              .item.active(style="background-image: url(img/bg.jpg)")
+              .item(style="background-image: url(img/bg.jpg)")
+
+            a.left.carousel-control(href='#carousel-example-generic', role='button', data-slide='prev')
+                span.glyphicon.glyphicon-chevron-left
+            a.right.carousel-control(href='#carousel-example-generic', role='button', data-slide='next')
+              span.glyphicon.glyphicon-chevron-right
