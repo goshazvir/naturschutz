@@ -1,0 +1,55 @@
+doctype html
+
+html
+  head
+    title map
+    include includes/_head
+  body
+    .out
+      .container-fluid
+        .row
+          .col-md-12
+            .header-mod
+              .header-mod-in
+                a(href="#").header-mod-logo
+      .container-fluid
+        .row
+          .col-md-12
+            .nav-wrap
+              .nav.m-mod(style="display: block;")
+                ul.nav-list
+                  li.nav-list-item
+                    a(href="#").nav-list-link Gebiete
+                    ul.dropdown
+                      li.dropdown-item
+                        a(href="#").dropdown-link Übersicht
+                      li.dropdown-item
+                        a(href="#").dropdown-link Gemeinden
+                      li.dropdown-item
+                        a(href="#").dropdown-link Lebensräume
+                  li.nav-list-item
+                    a(href="#").nav-list-link Kontakt
+      .container-fluid
+        .row
+          .col-md-6
+            | 1  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam repudiandae, minus. Fugiat ullam dolorem distinctio nam quibusdam voluptatum cumque magni, sint praesentium iusto necessitatibus veniam voluptate quisquam aspernatur, molestias nostrum.
+          .col-md-6
+            | 2  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum fuga, provident iure minus dolorum. Eius, similique sint nostrum pariatur neque enim tenetur ipsa quo odio voluptatum! Quam dolor vero consectetur.
+      .container-fluid
+        .row
+          .col-md-12
+            .part
+              .part-in
+                .part-title Mit unterstützung von Bund, Land und europäischer Union
+                .part-wrap
+                  .part-row
+                    .part-row-label
+                      .part-logo.part-logo1
+                    .part-row-label.align-center
+                      .part-logo.part-logo2
+                  .part-row
+                    .part-row-label.align-center
+                      .part-logo.part-logo3
+                    .part-row-label
+                      .part-logo.part-logo4
+    script(data-headjs-load='js/init.js', src='js/lib/head.js')
