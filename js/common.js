@@ -33,5 +33,4 @@ head.ready(function() {
 	  }
 	);
 
-
 });
