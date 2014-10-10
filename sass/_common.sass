@@ -536,7 +536,23 @@ body
 	.header-mod-logo
 		display: inline-block
 		+s(logo_new)
-
+.map
+	position: relative
+.map-in
+	@extend %wrap
+	min-width: 1264px
+.i-map1
+	width: 108px
+	height: 144px
+	background: url("../img/map111.png")
+	position: absolute
+	bottom: 113px
+	right: 243px
+	+transition(all linear 0.3s)
+	+opacity(0)
+	&.is-hover
+		+transition(all linear 0.3s)
+		+opacity(1)
 .map-nav-wrap
 	margin-top: 40px
 	margin-bottom: 40px

@@ -4,7 +4,7 @@ html
   head
     title map
     include includes/_head
-  body
+  body(style="min-width: 1300px;")
     .out
       .container-fluid
         .row
@@ -31,62 +31,66 @@ html
                     a(href="#").nav-list-link Kontakt
       .container-fluid
         .row
-          .col-md-6
-            .map-nav-wrap
-              .map-nav-wrap-in
-                .map-nav-title Schutzgebiete Vorarlberg
-                ul.map-nav-list
-                  li.map-nav-item
-                    a(href="#").map-nav-link Alpenmannstreu <br> Gamperdonatal
-                  li.map-nav-item
-                    a(href="#").map-nav-link Rohrach
-                  li.map-nav-item
-                    a(href="#").map-nav-link Schuttfluren Tafamunt
-                  li.map-nav-item
-                    a(href="#").map-nav-link Bangs-Matschels
-                  li.map-nav-item
-                    a(href="#").map-nav-link Soren, Gleggen - Köblern,
-                  li.map-nav-item
-                    a(href="#").map-nav-link Bregenzerachschlucht 
-                  li.map-nav-item
-                    a(href="#").map-nav-link Soren, Gleggen - Köblern, Schweizer Ried und Birken -  Schwarzes Zeug
-                  li.map-nav-item
-                    a(href="#").map-nav-link Fohramoos
-                  li.map-nav-item
-                    a(href="#").map-nav-link Spirkenwälder Brandnertal
-                  li.map-nav-item
-                    a(href="#").map-nav-link Gadental
-                  li.map-nav-item
-                    a(href="#").map-nav-link Spirkenwälder Innergamp
-                  li.map-nav-item
-                    a(href="#").map-nav-link Gsieg-Obere Mähder
-                  li.map-nav-item
-                    a(href="#").map-nav-link Spirkenwälder Oberer Tritt
-                  li.map-nav-item
-                    a(href="#").map-nav-link Klostertaler Bergwälder
-                  li.map-nav-item
-                    a(href="#").map-nav-link Spirkenwälder Saminatal
-                  li.map-nav-item
-                    a(href="#").map-nav-link Lauteracher Ried
-                  li.map-nav-item
-                    a(href="#").map-nav-link Unter-Überlut
-                  li.map-nav-item
-                    a(href="#").map-nav-link Leiblach
-                  li.map-nav-item
-                    a(href="#").map-nav-link Verwall
-                  li.map-nav-item
-                    a(href="#").map-nav-link Ludescherberg
-                  li.map-nav-item
-                    a(href="#").map-nav-link Wiegensee
-                  li.map-nav-item
-                    a(href="#").map-nav-link Mehrerauer Seeufer – <br> Bregenzerachmündung
-                  li.map-nav-item
-                    a(href="#").map-nav-link Witmoos
-                  li.map-nav-item
-                    a(href="#").map-nav-link Rheindelta
-          .col-md-6
-            .map
-              img(src="img/map.jpg", alt="")
+          .col-md-12
+            .map-in
+              .row
+                .col-sm-6.col-md-6
+                  .map-nav-wrap
+                    .map-nav-wrap-in
+                      .map-nav-title Schutzgebiete Vorarlberg
+                      ul.map-nav-list
+                        li.map-nav-item
+                          a(href="#").map-nav-link#map1 Alpenmannstreu <br> Gamperdonatal
+                        li.map-nav-item
+                          a(href="#").map-nav-link Rohrach
+                        li.map-nav-item
+                          a(href="#").map-nav-link Schuttfluren Tafamunt
+                        li.map-nav-item
+                          a(href="#").map-nav-link Bangs-Matschels
+                        li.map-nav-item
+                          a(href="#").map-nav-link Soren, Gleggen - Köblern,
+                        li.map-nav-item
+                          a(href="#").map-nav-link Bregenzerachschlucht 
+                        li.map-nav-item
+                          a(href="#").map-nav-link Soren, Gleggen - Köblern, Schweizer Ried und Birken -  Schwarzes Zeug
+                        li.map-nav-item
+                          a(href="#").map-nav-link Fohramoos
+                        li.map-nav-item
+                          a(href="#").map-nav-link Spirkenwälder Brandnertal
+                        li.map-nav-item
+                          a(href="#").map-nav-link Gadental
+                        li.map-nav-item
+                          a(href="#").map-nav-link Spirkenwälder Innergamp
+                        li.map-nav-item
+                          a(href="#").map-nav-link Gsieg-Obere Mähder
+                        li.map-nav-item
+                          a(href="#").map-nav-link Spirkenwälder Oberer Tritt
+                        li.map-nav-item
+                          a(href="#").map-nav-link Klostertaler Bergwälder
+                        li.map-nav-item
+                          a(href="#").map-nav-link Spirkenwälder Saminatal
+                        li.map-nav-item
+                          a(href="#").map-nav-link Lauteracher Ried
+                        li.map-nav-item
+                          a(href="#").map-nav-link Unter-Überlut
+                        li.map-nav-item
+                          a(href="#").map-nav-link Leiblach
+                        li.map-nav-item
+                          a(href="#").map-nav-link Verwall
+                        li.map-nav-item
+                          a(href="#").map-nav-link Ludescherberg
+                        li.map-nav-item
+                          a(href="#").map-nav-link Wiegensee
+                        li.map-nav-item
+                          a(href="#").map-nav-link Mehrerauer Seeufer – <br> Bregenzerachmündung
+                        li.map-nav-item
+                          a(href="#").map-nav-link Witmoos
+                        li.map-nav-item
+                          a(href="#").map-nav-link Rheindelta
+                .col-sm-6.col-md-6
+                  .map
+                    i.i-map1#js-map1
+                    img(src="img/big-map.png", alt="")
       .container-fluid
         .row
           .col-md-12

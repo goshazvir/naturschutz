@@ -15,4 +15,14 @@ head.ready(function() {
 	  }, 500);
 	  return false;
 	 });
+
+	$( "#map1" ).hover(
+	  function() {
+	    $( "#js-map1" ).addClass( "is-hover" );
+	  }, function() {
+	    $( "#js-map1" ).removeClass( "is-hover" );
+	  }
+	);
+
+
 });
