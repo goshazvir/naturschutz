@@ -2208,7 +2208,7 @@ body { margin: 0; font-size: 14px; font-family: Arial, sans-serif; line-height: 
 .map-nav-wrap .map-nav-list { padding: 0; list-style-position: inside; list-style: none; *zoom: 1; }
 .map-nav-wrap .map-nav-list:after { content: " "; display: table; clear: both; }
 .map-nav-wrap .map-nav-list .map-nav-item { width: 50%; margin-bottom: 5px; padding-left: 15px; float: left; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
-@media only screen and (max-width: 768px) { .map-nav-wrap .map-nav-list .map-nav-item { width: 100%; } }
+@media only screen and (max-width: 800px) { .map-nav-wrap .map-nav-list .map-nav-item { width: 100%; } }
 .map-nav-wrap .map-nav-list .map-nav-item:before { content: ""; width: 4px; height: 4px; border-radius: 50%; background: black; position: absolute; top: 7px; left: 1px; }
 .map-nav-wrap .map-nav-list .map-nav-link { font-size: 13px; text-decoration: none; color: black; }
 .map-nav-wrap .map-nav-list .map-nav-link:hover, .map-nav-wrap .map-nav-list .map-nav-link.is-hover { text-decoration: underline; color: #aac300; }
