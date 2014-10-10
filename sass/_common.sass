@@ -69,6 +69,9 @@ body
 	+r(w480)
 		+s(nav_m)
 .nav-wrap
+	&.m-static
+		+r(w768)
+			position: static
 	+r(w768)
 		position: absolute
 		left: 0
@@ -523,6 +526,7 @@ body
 			margin: 0
 
 .header-mod
+	height: 120px
 	margin: 0 -15px
 	background: #abc600 
 	.header-mod-in
@@ -532,6 +536,50 @@ body
 	.header-mod-logo
 		display: inline-block
 		+s(logo_new)
+
+.map-nav-wrap
+	margin-top: 40px
+	margin-bottom: 40px
+	background: #F5F5F5
+	+border-radius(5px)
+	padding: 15px
+	.map-nav-title
+		margin-bottom: 10px
+		font-size: 17px
+		font-weight: bold
+		color: #3C7D23
+	.map-nav-list
+		padding: 0
+		list-style-position: inside
+		list-style: none
+		+clr
+		.map-nav-item
+			width: 50%
+			margin-bottom: 5px
+			padding-left: 15px
+			float: left
+			position: relative
+			+box
+			&:before
+				content: ""
+				width: 4px
+				height: 4px
+				border-radius: 50%
+				background: #000
+				position: absolute
+				top: 7px
+				left: 1px
+		.map-nav-link
+			font-size: 13px
+			text-decoration: none
+			color: #000 
+			&:hover
+				text-decoration: underline
+				color: #aac300
+.map
+	img
+		max-width: 100% 
+
 
 
 

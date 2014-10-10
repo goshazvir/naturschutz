@@ -2044,6 +2044,7 @@ body { margin: 0; font-size: 14px; font-family: Arial, sans-serif; line-height: 
 @media only screen and (max-width: 768px) { .nav-ico { margin-right: 0px; display: inline-block; } }
 @media only screen and (max-width: 480px) { .nav-ico { background: url('../img/icons-s38cab7a714.png') 0 -597px no-repeat; width: 29px; height: 20px; } }
 
+@media only screen and (max-width: 768px) { .nav-wrap.m-static { position: static; } }
 @media only screen and (max-width: 768px) { .nav-wrap { position: absolute; left: 0; right: 0; top: 100%; z-index: 100; } }
 
 .nav { margin: 60px 0 0px; float: right; }
@@ -2189,6 +2190,17 @@ body { margin: 0; font-size: 14px; font-family: Arial, sans-serif; line-height: 
 .article .article-content { font-size: 13px; font-weight: bold; margin-bottom: 5px; }
 .article .article-content p { margin: 0; }
 
-.header-mod { margin: 0 -15px; background: #abc600; }
+.header-mod { height: 120px; margin: 0 -15px; background: #abc600; }
 .header-mod .header-mod-in { height: 170px; overflow: hidden; }
 .header-mod .header-mod-logo { display: inline-block; background: url('../img/icons-s38cab7a714.png') 0 -284px no-repeat; width: 375px; height: 264px; }
+
+.map-nav-wrap { margin-top: 40px; margin-bottom: 40px; background: whitesmoke; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding: 15px; }
+.map-nav-wrap .map-nav-title { margin-bottom: 10px; font-size: 17px; font-weight: bold; color: #3c7d23; }
+.map-nav-wrap .map-nav-list { padding: 0; list-style-position: inside; list-style: none; *zoom: 1; }
+.map-nav-wrap .map-nav-list:after { content: " "; display: table; clear: both; }
+.map-nav-wrap .map-nav-list .map-nav-item { width: 50%; margin-bottom: 5px; padding-left: 15px; float: left; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.map-nav-wrap .map-nav-list .map-nav-item:before { content: ""; width: 4px; height: 4px; border-radius: 50%; background: black; position: absolute; top: 7px; left: 1px; }
+.map-nav-wrap .map-nav-list .map-nav-link { font-size: 13px; text-decoration: none; color: black; }
+.map-nav-wrap .map-nav-list .map-nav-link:hover { text-decoration: underline; color: #aac300; }
+
+.map img { max-width: 100%; }
