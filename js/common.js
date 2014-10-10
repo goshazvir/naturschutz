@@ -23,6 +23,15 @@ head.ready(function() {
 	    $( "#js-map1" ).removeClass( "is-hover" );
 	  }
 	);
+	$( "#js-map1" ).hover(
+	  function() {
+	    $( this ).addClass( "is-hover" );
+	    $( "#map1" ).addClass( "is-hover" );
+	  }, function() {
+	    $( this ).removeClass( "is-hover" );
+	    $( "#map1" ).removeClass( "is-hover" );
+	  }
+	);
 
 
 });

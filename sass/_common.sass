@@ -538,18 +538,23 @@ body
 		+s(logo_new)
 .map
 	position: relative
+	+r(w768)
+		text-align: center
 .map-in
 	@extend %wrap
 	min-width: 1264px
 .i-map1
-	width: 108px
-	height: 144px
-	background: url("../img/map111.png")
+	width: 98px
+	height: 139px
+	background: url("../img/map11.png")
 	position: absolute
 	bottom: 113px
-	right: 243px
+	left: 50%
+	margin-left: -32px
 	+transition(all linear 0.3s)
 	+opacity(0)
+	+r(w768)
+		margin-left: 34px
 	&.is-hover
 		+transition(all linear 0.3s)
 		+opacity(1)
@@ -589,7 +594,7 @@ body
 			font-size: 13px
 			text-decoration: none
 			color: #000 
-			&:hover
+			&:hover, &.is-hover
 				text-decoration: underline
 				color: #aac300
 .map

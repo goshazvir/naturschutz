@@ -2195,10 +2195,12 @@ body { margin: 0; font-size: 14px; font-family: Arial, sans-serif; line-height: 
 .header-mod .header-mod-logo { display: inline-block; background: url('../img/icons-s38cab7a714.png') 0 -284px no-repeat; width: 375px; height: 264px; }
 
 .map { position: relative; }
+@media only screen and (max-width: 768px) { .map { text-align: center; } }
 
 .map-in { min-width: 1264px; }
 
-.i-map1 { width: 108px; height: 144px; background: url("../img/map111.png"); position: absolute; bottom: 113px; right: 243px; -webkit-transition: all linear 0.2s; -o-transition: all linear 0.2s; transition: all linear 0.2s; opacity: 0; filter: alpha(opacity=0); }
+.i-map1 { width: 98px; height: 139px; background: url("../img/map11.png"); position: absolute; bottom: 113px; left: 50%; margin-left: -32px; -webkit-transition: all linear 0.3s; -o-transition: all linear 0.3s; transition: all linear 0.3s; opacity: 0; filter: alpha(opacity=0); }
+@media only screen and (max-width: 768px) { .i-map1 { margin-left: 34px; } }
 .i-map1.is-hover { -webkit-transition: all linear 0.3s; -o-transition: all linear 0.3s; transition: all linear 0.3s; opacity: 1; filter: alpha(opacity=100); }
 
 .map-nav-wrap { margin-top: 40px; margin-bottom: 40px; background: whitesmoke; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding: 15px; }
@@ -2208,6 +2210,6 @@ body { margin: 0; font-size: 14px; font-family: Arial, sans-serif; line-height: 
 .map-nav-wrap .map-nav-list .map-nav-item { width: 50%; margin-bottom: 5px; padding-left: 15px; float: left; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 .map-nav-wrap .map-nav-list .map-nav-item:before { content: ""; width: 4px; height: 4px; border-radius: 50%; background: black; position: absolute; top: 7px; left: 1px; }
 .map-nav-wrap .map-nav-list .map-nav-link { font-size: 13px; text-decoration: none; color: black; }
-.map-nav-wrap .map-nav-list .map-nav-link:hover { text-decoration: underline; color: #aac300; }
+.map-nav-wrap .map-nav-list .map-nav-link:hover, .map-nav-wrap .map-nav-list .map-nav-link.is-hover { text-decoration: underline; color: #aac300; }
 
 .map img { max-width: 100%; }
