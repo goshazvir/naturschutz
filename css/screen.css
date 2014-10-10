@@ -2197,7 +2197,7 @@ body { margin: 0; font-size: 14px; font-family: Arial, sans-serif; line-height: 
 .map { position: relative; text-align: center; }
 @media only screen and (max-width: 768px) { .map { text-align: center; } }
 
-.map-in { min-width: 1264px; }
+.map-in { min-width: 768px; }
 
 .i-map1 { width: 98px; height: 139px; background: url("../img/map11.png"); position: absolute; bottom: 113px; left: 50%; margin-left: 54px; -webkit-transition: all linear 0.3s; -o-transition: all linear 0.3s; transition: all linear 0.3s; opacity: 0; filter: alpha(opacity=0); }
 @media only screen and (max-width: 768px) { .i-map1 { margin-left: 54px; } }
