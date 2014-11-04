@@ -1,89 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>map</title>
-    <meta charset="utf-8">
-    <meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible">
-    <meta content="yes" name="apple-mobile-web-app-capable">
-    <meta content="black" name="apple-mobile-web-app-status-bar-style">
-    <meta content="telephone=no" name="format-detection">
-    <meta content="width=800" name="viewport">
-    <link href="css/screen.css" rel="stylesheet">
-  </head>
-  <body style="min-width: 800px;">
-    <div class="out">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="header-mod">
-              <div class="header-mod-in"><a href="#" class="header-mod-logo"></a>
-                <div class="nav-ico js-nav-mobile"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="nav-wrap m-static1">
-              <div style="display: block;" class="nav m-mod">
-                <ul class="nav-list">
-                  <li class="nav-list-item"><a href="#" class="nav-list-link">Gebiete</a>
-                    <ul class="dropdown">
-                      <li class="dropdown-item"><a href="#" class="dropdown-link">Übersicht</a></li>
-                      <li class="dropdown-item"><a href="#" class="dropdown-link">Gemeinden</a></li>
-                      <li class="dropdown-item"><a href="#" class="dropdown-link">Lebensräume</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-list-item"><a href="#" class="nav-list-link">Kontakt</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="map-in">
-              <div class="row">
-                <div class="col-sm-12 col-md-6">
-                  <div class="map-nav-wrap">
-                    <div class="map-nav-wrap-in">
-                      <div class="map-nav-title">Schutzgebiete Vorarlberg</div>
-                      <ul class="map-nav-list">
-                        <li class="map-nav-item"><a href="#" id="map2" class="map-nav-link">Alpenmannstreu <br> Gamperdonatal</a></li>
-                        <li class="map-nav-item"><a href="#" id="map3" class="map-nav-link">Rohrach</a></li>
-                        <li class="map-nav-item"><a href="#" id="map4" class="map-nav-link">Schuttfluren Tafamunt</a></li>
-                        <li class="map-nav-item"><a href="#" id="map5" class="map-nav-link">Bangs-Matschels</a></li>
-                        <li class="map-nav-item"><a href="#" id="map6" class="map-nav-link">Soren, Gleggen - Köblern,</a></li>
-                        <li class="map-nav-item"><a href="#" id="map7" class="map-nav-link">Bregenzerachschlucht </a></li>
-                        <li class="map-nav-item"><a href="#" id="map8" class="map-nav-link">Soren, Gleggen - Köblern, Schweizer Ried und Birken -  Schwarzes Zeug</a></li>
-                        <li class="map-nav-item"><a href="#" id="map9" class="map-nav-link">Fohramoos</a></li>
-                        <li class="map-nav-item"><a href="#" id="map10" class="map-nav-link">Spirkenwälder Brandnertal</a></li>
-                        <li class="map-nav-item"><a href="#" id="map11" class="map-nav-link">Gadental</a></li>
-                        <li class="map-nav-item"><a href="#" id="map12" class="map-nav-link">Spirkenwälder Innergamp</a></li>
-                        <li class="map-nav-item"><a href="#" id="map13" class="map-nav-link">Gsieg-Obere Mähder</a></li>
-                        <li class="map-nav-item"><a href="#" id="map14" class="map-nav-link">Spirkenwälder Oberer Tritt</a></li>
-                        <li class="map-nav-item"><a href="#" id="map15" class="map-nav-link">Klostertaler Bergwälder</a></li>
-                        <li class="map-nav-item"><a href="#" id="map16" class="map-nav-link">Spirkenwälder Saminatal</a></li>
-                        <li class="map-nav-item"><a href="#" id="map17" class="map-nav-link">Lauteracher Ried</a></li>
-                        <li class="map-nav-item"><a href="#" id="map18" class="map-nav-link">Unter-Überlut</a></li>
-                        <li class="map-nav-item"><a href="#" id="map19" class="map-nav-link">Leiblach</a></li>
-                        <li class="map-nav-item"><a href="#" id="map1" class="map-nav-link">Verwall</a></li>
-                        <li class="map-nav-item"><a href="#" id="map20" class="map-nav-link">Ludescherberg</a></li>
-                        <li class="map-nav-item"><a href="#" id="map21" class="map-nav-link">Wiegensee</a></li>
-                        <li class="map-nav-item"><a href="#" id="map22" class="map-nav-link">Mehrerauer Seeufer – <br> Bregenzerachmündung</a></li>
-                        <li class="map-nav-item"><a href="#" id="map23" class="map-nav-link">Witmoos</a></li>
-                        <li class="map-nav-item"><a href="#" id="map24" class="map-nav-link">Rheindelta</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-6">
-                  <div class="map"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="100%" height="100%" viewBox="0 0 1000 2000" enable-background="new 0 0 1000 2000" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="2000px" viewBox="0 0 1000 2000" enable-background="new 0 0 1000 2000" xml:space="preserve">
 <path id="path219_2_" fill="none" stroke="#6E6E6E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" d="
 	M445.995,253l14.755,4.25l9.5,12.25l18.225,7.945L490,250.25l6.5-5.75l12.938,7.829L523,251.75l17.5,24.5l14.75-2L570,262.5
 	l25.75,6.75l-5-15l12-6l3.75,2.25l-7,11.25l2.75,21.25l-3.865,10.944L631,322.882L625.75,335l14.391,29.409l19.597-5.207
@@ -115,7 +31,7 @@
 	l2-7.958l9.958-3.917l8.042,2l36.708,5.625l11.917-5.167l2.667-18.667l-10-13.667L314,269.333l6.5-2.083L319,246.5l26-58l13-19.542
 	L372.25,159l15.692,3l14.308-4.033l10.5,10.992l15.25,4.875l3.25,24.667l-7,4l5.074,21.158L418.511,236.5l-1.761,8.75l14.75,0.25
 	l4,5L445.995,253"/>
-<polygon id="s-map22" fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="351.984,373.851 
+<polygon fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="351.984,373.851 
 	353.984,373.851 353.984,374.82 355.953,374.82 355.953,373.851 357,373.851 357,371.867 362.984,371.867 362.984,370.867 
 	365.984,370.867 365.984,369.898 368.016,369.898 368.016,367.882 369.016,367.882 369.016,366.898 370.969,366.898 
 	370.969,365.882 371.969,365.882 371.969,364.882 375,364.882 375,363.882 380,363.882 380,362.882 382,362.882 382,361.867 
@@ -154,12 +70,12 @@
 	386.984,368.835 386.984,369.867 385.016,369.867 385.016,370.804 374.016,370.804 374.016,372.882 373.016,372.882 
 	373.016,373.882 371.016,373.882 371.016,374.835 367.984,374.835 367.984,375.868 363.984,375.868 363.984,376.851 355,376.851 
 	355,375.868 352.969,375.868 352.969,374.898 351.984,374.898 "/>
-<polygon id="s-map33" fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="445.995,326.862 
+<polygon fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="445.995,326.862 
 	445.995,322.882 450.974,322.882 450.974,323.862 457.974,323.862 457.974,322.882 458.974,322.882 458.974,323.862 
 	459.995,323.862 459.995,324.872 461.995,324.872 461.995,326.862 460.016,326.862 460.016,327.903 458.016,327.903 
 	458.016,326.903 456.974,326.903 456.974,325.924 455.995,325.924 455.995,326.862 453.995,326.862 453.995,325.945 
 	451.974,325.945 451.974,326.799 "/>
-<polygon id="s-map44" fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="249.058,384.945 
+<polygon fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="249.058,384.945 
 	253.933,384.945 253.933,385.945 255.891,385.945 255.891,384.945 256.891,384.945 256.891,383.945 258.849,383.945 
 	258.849,382.945 259.891,382.945 259.891,381.987 260.974,381.987 260.974,380.945 262.891,380.945 262.891,379.903 
 	263.849,379.903 263.849,378.987 265.016,378.987 265.016,377.987 266.974,377.987 266.974,376.987 267.891,376.987 267.891,376.07 
@@ -187,27 +103,27 @@
 	266.016,416.927 266.016,415.949 264.057,415.949 264.057,414.949 261.974,414.949 261.974,413.032 260.141,413.032 
 	260.141,410.991 252.974,404.948 252.974,402.99 252.057,402.99 252.057,396.948 252.849,396.948 252.849,392.948 252.016,392.948 
 	252.016,389.947 250.891,389.947 250.891,387.947 250.016,387.947 250.016,386.906 249.057,386.906 "/>
-<polygon id="s-map55" fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="391.969,477.812 
+<polygon fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="391.969,477.812 
 	391.969,476.875 392.938,476.875 392.938,474.938 393.938,474.938 393.938,473.969 392.953,473.969 392.953,472.844 
 	391.969,472.844 391.969,471.938 392.953,471.938 392.953,470 395.875,470 395.875,472.844 396.938,472.844 396.938,471 
 	397.812,471 397.812,468.906 398.906,468.906 398.906,467.875 400.094,467.875 400.094,467.062 401.875,467.062 401.875,465.938 
 	405,465.938 405,467.844 405.906,467.844 405.906,475.906 404.969,475.906 404.969,478.75 404.031,478.75 404.031,479.719 
 	396.031,479.719 396.031,478.844 394.031,478.844 394.031,477.781 "/>
-<polygon id="s-map66" fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="257,509.917 
+<polygon fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="257,509.917 
 	257,495.083 257.917,495.083 257.917,494.083 258.917,494.083 258.917,494.917 260.917,494.917 260.917,495.875 263.875,495.875 
 	263.875,500.875 264.917,500.875 264.917,508.75 258.042,508.75 258.042,509.917 "/>
-<polygon id="s-map77" fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="254.083,513.958 
+<polygon fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="254.083,513.958 
 	256,513.958 256,519.833 255.042,519.833 255.042,520.75 253.083,520.75 253.083,521.75 251.958,521.75 251.958,522.792 
 	250,522.792 250,522.042 248,522.042 248,521 246.958,521 246.958,519.917 245.958,519.917 245.958,518.958 245.042,518.958 
 	245.042,517.958 244.042,517.958 244.042,516.917 243.083,516.917 243.083,514.75 242,514.75 242,513.958 239.958,513.958 
 	239.958,512.875 241.875,512.875 241.875,513.708 243.125,513.708 243.083,514.75 249,514.75 249,515.875 250.917,515.875 
 	250.917,514.958 250.042,514.958 250.042,513.958 251.917,513.958 251.917,512.875 252.917,512.875 252.917,514.958 
 	253.958,514.958 "/>
-<polygon id="s-map88" fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="283.042,343.875 
+<polygon fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="283.042,343.875 
 	285.042,343.875 285.042,343 285.875,343 285.875,342.125 285.042,342.125 285.042,340.958 284.083,340.958 284.083,340 
 	283.042,340 283.042,339 282,339 282,336.917 281,336.917 281,339.875 283.042,339.875 283.042,340.833 283.875,340.833 
 	283.875,342.875 282.958,342.875 "/>
-<polyline id="s-map99" fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="277.958,320.75 
+<polyline fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="277.958,320.75 
 	277.958,319.833 284.958,319.833 284.958,322.875 286.042,322.875 286.042,321.875 286.792,321.875 286.792,321.042 
 	287.917,321.042 287.917,318.875 301.958,318.875 301.958,317.875 304.958,317.875 304.958,316.917 303.917,316.917 
 	303.917,315.875 302.958,315.875 302.958,314.875 302.042,314.875 302.042,315.75 297.083,315.75 297.083,314.875 295.958,314.875 
@@ -220,7 +136,7 @@
 	276.083,335.875 276.083,336.917 278.917,336.917 278.917,333.958 278.125,333.958 278.125,333.083 277,333.083 277,331.875 
 	277.917,331.875 277.917,329.917 281,329.917 281,327.958 280.042,327.958 280.042,325.917 279,325.917 279,323.875 278,323.875 
 	278,322.958 276.958,322.958 276.958,320.875 277.792,320.875 "/>
-<path id="s-map111" fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" d="M206.917,298.833V297
+<path fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" d="M206.917,298.833V297
 	h-0.896v-3.021h-1v-2.021h-0.938v-1.229h1.979v-0.792h0.854v-0.958h1.062v-1.042H209v-0.979h2.979v-1.104H218v2.25h0.979v2.729h1
 	v2.042h0.979c0,0,0,0.729,0,0.833s1,0.083,1,0.083v3.062h0.958v1.062h1.042v1h1.021v0.917h2.937v1.083h0.958v0.917h2.188v0.979
 	h0.833v1.042h1.021v0.958h1.021v1.062h1v0.938h2.104v1.042h0.812v1.083h1.042v1.812H241v2.125h0.938v1.896h0.958v1.104h1.062v2h1v4
@@ -234,14 +150,14 @@
 	l2.062,1v1.938h0.958v5.979h0.938l1.021,1.021v0.937h1.853v1.104h2.104v0.938h4.167v-0.938h1.854v0.917h0.958v1.021h0.896v1h3.292
 	v1.104c0,0,4.938-0.188,4.938,0s0,0.958,0,0.958h6.938v-0.917l10.094-10.094h2.927v-0.948h2v-1h7v-1.938h1.063v-2.167h0.854
 	l1.188-1.979h1.812l0.125-0.938l1.979-1.979h1.979v-0.938l8.052-8.052h0.968v-1.031h3v-0.979h2.896v-1.042L206.917,298.833z"/>
-<polyline id="s-map222" fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="
+<polyline fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="
 	409.021,176.771 409.021,174.896 410.021,174.896 410.021,173.958 409.021,173.958 409.021,172.875 409.938,172.875 
 	409.938,171.958 411.083,171.958 411.083,168.958 413.979,168.958 413.979,169.833 414.958,169.833 414.958,171.875 
 	417.021,171.875 417.021,170.958 421,170.958 421,171.792 423.021,171.792 423.021,172.958 427.042,172.958 427.042,173.833 
 	428,173.833 428,177.917 425.062,177.917 425.062,178.833 423.042,178.833 423.042,177.938 416.042,177.938 416.042,178.833 
 	414.021,178.833 414.021,177.875 412.021,177.875 412.021,176.938 410.958,176.938 410.958,178.833 410,178.833 410,176.896 
 	409.021,176.896 "/>
-<polygon id="s-map333" fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="97.917,696.917 
+<polygon fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="97.917,696.917 
 	97.917,698.833 98.833,698.833 99.958,699.958 99.958,701.75 100.958,701.75 103.021,703.812 103.021,705.75 103.875,705.75 
 	103.875,707.833 104.833,707.833 104.833,709.792 106,709.792 106,711.833 106.833,711.833 106.833,714.625 107.958,714.625 
 	107.958,716.792 108.875,716.792 108.875,718.625 109.833,718.625 109.833,721.75 110.917,721.75 110.917,726.792 111.958,726.792 
@@ -261,7 +177,7 @@
 	79,728.834 80.917,728.834 80.917,728.043 88.083,720.877 89.042,720.877 89.042,718.835 89.875,718.835 89.875,717.043 
 	90.708,717.043 90.708,715.96 91.917,715.96 91.917,713.001 92.75,713.001 92.75,710.085 93.938,710.085 93.938,706.918 
 	94.917,706.918 94.917,702.96 96,702.96 96,699.96 97,699.96 97,696.917 "/>
-<polygon id="s-map444" fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="133,925.938 
+<polygon fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="133,925.938 
 	133.938,925.938 133.938,923.938 136,923.938 136,922.062 136.812,922.062 136.812,917 137.875,917 137.875,915.938 144,915.938 
 	144,917.688 144.938,917.688 144.938,917 145.875,917 145.875,914.875 155.75,914.875 155.75,913.125 153.938,913.125 
 	153.938,911.125 154.812,911.125 154.812,908.062 155.75,908.062 155.75,907 157.938,907 157.938,907.812 159,907.812 159,908.938 
@@ -280,17 +196,17 @@
 	146.083,919.917 144.979,919.917 144.979,918.875 142.958,918.875 142.958,920.875 142.083,920.875 142.083,921.667 141,921.667 
 	141,923.75 140.083,923.75 140.083,926.875 139,926.875 139,928.833 138,928.833 138,929.792 136,929.792 136,929 135.083,929 
 	135.083,928 134.167,928 134.167,926.875 133,926.875 "/>
-<polygon id="s-map555" fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="204.083,940.958 
+<polygon fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="204.083,940.958 
 	202.958,940.958 202.958,938.125 204.083,938.125 204.083,937.125 204.875,937.125 204.875,935.917 207.042,935.917 207.042,935 
 	210,935 210,933.916 211.958,933.916 211.958,935 212.958,935 212.958,938.75 206.896,944.812 205.917,944.812 205.917,946.708 
 	203.854,948.771 202.958,948.771 202.958,950.875 204.125,950.875 204.125,952.833 202.958,952.833 202.958,951.917 
 	202.125,951.917 202.125,950.917 199.917,950.917 199.917,948.917 197.917,948.917 197.917,947.917 197.083,947.917 
 	197.083,946.958 196,946.958 196,945.917 197.875,945.917 197.875,944.958 199.875,944.958 199.875,943.958 200.792,943.958 
 	200.792,942.875 203.042,942.875 203.042,941.917 204,941.917 "/>
-<polygon id="s-map666" fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="276,980.938 
+<polygon fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="276,980.938 
 	282,980.938 282,981.875 282.75,981.875 282.75,983.75 283.875,983.75 283.875,986.625 279.938,986.625 279.938,985.938 
 	279.188,985.938 279.188,983.781 278,983.781 278,982.938 276,982.938 "/>
-<polygon id="s-map777" fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="
+<polygon fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="
 	318.875,1005.938 319.875,1005.938 319.875,1002.062 320.875,1002.062 320.875,1000.938 322,1000.938 322,1001.75 326.938,1001.75 
 	326.938,1000.938 327.812,1000.938 327.812,1000 333,1000 333,998.938 336.75,998.938 336.75,997.875 338,997.875 338,997.062 
 	339,997.062 339,995.938 339.875,995.938 339.875,996.75 341,996.75 341,997.688 344.938,997.688 344.938,996.938 347.812,996.938 
@@ -299,15 +215,15 @@
 	343.125,1006.688 343.125,1007.812 339.062,1007.812 339.062,1007 337.062,1007 337.062,1007.812 332.125,1007.812 
 	332.125,1009.625 331,1009.625 331,1010.625 329.125,1010.625 329.125,1009.938 326.062,1009.938 326.062,1009 323.125,1009 
 	323.125,1008.062 318.875,1008.062 "/>
-<polygon id="s-map888" fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="
+<polygon fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="
 	187.938,1069.938 188.938,1069.938 188.938,1065.875 189.812,1065.875 189.812,1063.812 191.875,1063.812 191.875,1064.75 
 	192.938,1064.75 196.125,1067.938 196.125,1068.75 196.75,1068.75 196.75,1070.938 196.125,1070.938 196.125,1071.75 
 	194.031,1073.844 192.344,1073.844 192.344,1074.75 190.062,1074.75 190.062,1075.75 187.938,1075.75 "/>
-<polygon id="s-map999" fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="
+<polygon fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="
 	229.062,1074.938 229.062,1078.688 229.812,1078.688 229.812,1079.75 230.875,1079.75 230.875,1080.812 233,1080.812 233,1080 
 	233.938,1080 233.938,1078.688 234.75,1078.688 234.75,1077.875 235.938,1077.875 235.938,1076.062 235,1076.062 235,1074.938 
 	232.812,1074.938 232.812,1073.938 231.938,1073.938 231.938,1072.812 230.062,1072.812 230.062,1074.812 "/>
-<polygon id="s-map1111" fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="375.042,865.917 
+<polygon fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="375.042,865.917 
 	377,865.917 377,865.083 379.958,865.083 379.958,863.917 381.833,863.917 381.833,862.958 383.042,862.958 383.042,861.083 
 	385.167,858.958 386.917,858.958 386.917,858.042 389.042,858.042 389.042,857 391.062,854.979 392.917,854.979 392.917,854 
 	394.021,852.896 395.958,852.896 395.958,851.917 404.917,851.917 404.917,854.833 405.917,854.833 405.917,856.875 
@@ -322,7 +238,7 @@
 	380.958,880.958 381.917,880.958 381.917,879.875 381.208,879.875 381.208,878.958 379.958,878.958 379.958,878.042 
 	378.958,878.042 378.958,875.917 377.958,875.917 377.958,874.917 377.083,874.917 377.083,872.833 376,872.833 376,871.792 
 	375.042,871.792 "/>
-<path id="s-map2222" fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" d="M434.938,919.812v-1.062
+<path fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" d="M434.938,919.812v-1.062
 	h0.938v-2.812H440v0.688h7.75v3.188h1.042v0.938h1.167l2.062,2.062v2.938h0.812v1h2.208v1.167h0.917v0.833H457v0.958h2.042v1.167
 	h3.833v1.042h5.083V931h0.958v5.833h1.042v1.958h2.958v-0.75h3.042v0.583h4.958V938h1.917v-0.958h3v0.792h3.125v-0.875h1v-0.917
 	h7.958v0.708h2.917v1.083h6.333v0.958h1.75v-0.917H513v-0.833h2.875v0.75h2v-0.958h1.958v0.875h9.084v-0.75h1.042v1.833h2v1.125h4
@@ -349,11 +265,11 @@
 	h-1v-0.833h-1.125v-1h-2.792v-1.333h-3.083v-0.958h-1.125v-0.917h-2.083V942h-0.708v-1.042h-1.417v-0.917h-1.75V939h-1.042v-0.958
 	H431v-1h-2v-1.958h-0.958V934h-0.958v-1h-2v-1.125H424v-0.75h-6.083v-1.208h-0.958v-1h0.792V928h2.083v-0.917h1.042v-1.042h2.042
 	v-1.167h1.042v-0.792h0.875v-2h2.208v-1.125h1.917v-1.042v-0.208L434.938,919.812z"/>
-<polygon id="s-map3333" fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="598.938,780.875 
+<polygon fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="598.938,780.875 
 	598.938,779.75 599.812,779.75 599.812,777.854 600.875,777.854 600.875,774.896 600,774.896 600,773.937 600.979,773.937 
 	600.979,772.979 608.958,772.979 608.958,774.854 608,774.854 608,775.896 606.021,775.896 606.021,777.916 607.062,777.916 
 	607.062,778.958 605.979,778.958 605.979,779.854 604.104,779.854 604.104,781.854 600.042,781.854 600.042,780.916 "/>
-<polygon id="s-map4444" fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="602.917,804.875 
+<polygon fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="602.917,804.875 
 	602.917,798.917 604.834,798.917 604.834,797.958 612.959,797.958 612.959,800.833 614.126,800.833 614.126,795 613.084,795 
 	613.084,793.833 620.042,793.833 620.042,791.917 621.917,791.917 621.917,792.833 625.001,792.833 625.001,793.625 
 	626.792,793.625 626.792,794.917 630.042,794.917 630.042,795.75 632.126,795.75 632.126,796.917 633.751,796.917 633.751,799.708 
@@ -374,7 +290,7 @@
 	601.918,845.917 600.043,845.917 600.043,844.917 598.043,844.917 598.043,834.917 598.918,834.917 598.918,832.875 
 	600.001,832.875 600.001,816.833 599.001,816.833 599.001,813.791 600.084,813.791 600.084,810.833 601.001,810.833 
 	601.001,807.916 602.043,807.916 602.043,804.916 "/>
-<polygon id="s-map5555" fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="
+<polygon fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="
 	709.126,1280.829 709.126,1279.787 710.043,1279.787 710.043,1276.954 711.001,1276.954 711.001,1274.787 721.001,1274.787 
 	721.001,1272.829 724.001,1272.829 724.001,1274.704 725.001,1274.704 725.001,1273.954 727.918,1273.954 727.918,1272.829 
 	730.043,1272.829 730.043,1274.829 732.043,1274.829 732.043,1273.829 733.001,1273.829 733.001,1275.704 736.084,1275.704 
@@ -382,7 +298,7 @@
 	731.126,1280.829 731.126,1283.704 729.084,1283.704 729.084,1282.871 726.959,1282.871 726.959,1281.829 723.834,1281.829 
 	723.834,1280.912 722.084,1280.912 722.084,1281.662 721.126,1281.662 721.126,1282.912 717.084,1282.912 717.084,1281.954 
 	709.918,1281.954 709.918,1280.829 "/>
-<polygon id="s-map6666" fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="
+<polygon fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="
 	737.062,1277.906 737.062,1276 738.062,1276 738.062,1274.844 739.031,1274.844 739.031,1273.969 741.156,1273.969 
 	741.156,1272.938 742.062,1272.938 742.062,1271.906 745.125,1271.906 745.125,1270.906 748.031,1270.906 748.031,1269.906 
 	751.094,1269.906 751.094,1268.906 752.906,1268.906 752.906,1267.906 755.938,1267.906 755.938,1266.875 757.062,1266.875 
@@ -390,7 +306,7 @@
 	763.031,1270.922 762.062,1270.922 762.062,1271.844 761.094,1271.844 761.094,1272.829 755.156,1272.829 755.156,1273.938 
 	751.031,1273.938 751.031,1274.875 748.125,1274.875 748.125,1275.844 747,1275.844 747,1277.906 745.062,1277.906 
 	745.062,1279.781 741.062,1279.781 741.062,1278.906 739,1278.906 739,1277.969 "/>
-<path id="s-map11" fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" d="M642.959,1134.834v-5.916
+<path fill="none" stroke="#6E6E6E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" d="M642.959,1134.834v-5.916
 	h0.958v-3h1.084v-1.125h1.041v-0.917h0.875v-1.958h6.959v-0.792l3.187-3.187h0.854v-1.896h2.084v-1.292h0.875v-1.708h2.208v-3.125
 	h0.833v-0.959h5.917v0.834h10.042v-2.792h2.125v-4.125h0.958v-1.917h-1v-1h1v-0.958h0.959v-1.042h-0.875v-6.041h0.875v-0.834h3.999
 	v-6.25h1.084v-1.916h1.041v-1.042h-1.083v-1.042h1.083v-1h-1.041v-0.916h1.041v-1.917h0.917v-1.042h1.833v-0.958h2.25v-1.083h1
@@ -428,44 +344,3 @@
 	h-1.854v-3.125h-1v-1.792h-1.083v-1.062h1v-0.938h0.979v-1.041h0.959v-1.062h1.104v-0.959h1.959v-1.041h0.979v-0.959h1.021v-3h1.021
 	v-7.021h-0.958v-2.979h1.958v-5.086h0.958v-6.021h-0.979v-1.938L642.959,1134.834z"/>
 </svg>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="part">
-              <div class="part-in">
-                <div class="part-title">Mit unterstützung von Bund, Land und europäischer Union</div>
-                <div class="part-wrap">
-                  <div class="part-row">
-                    <div class="part-row-label">
-                      <div class="part-logo part-logo1"></div>
-                    </div>
-                    <div class="part-row-label align-center">
-                      <div class="part-logo part-logo2"></div>
-                    </div>
-                  </div>
-                  <div class="part-row">
-                    <div class="part-row-label align-center">
-                      <div class="part-logo part-logo3"></div>
-                    </div>
-                    <div class="part-row-label">
-                      <div class="part-logo part-logo4"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <script data-headjs-load="js/init.js" src="js/lib/head.js"></script>
-  </body>
-</html>
