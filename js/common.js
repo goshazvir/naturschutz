@@ -26,8 +26,9 @@ head.ready(function() {
 	$( "#s-map11" ).hover(
 	  function() {
 	    $(this).attr('fill', '#3c7d23');
+	    $("#map1").addClass('is-hover');
 	  }, function() {
-	    $(this).attr('fill', '#bacb43');
+	    $("#map1").removeClass('is-hover');
 	  }
 	);
 	$( "#map2" ).hover(
@@ -40,8 +41,10 @@ head.ready(function() {
 	$( "#s-map22" ).hover(
 	  function() {
 	    $(this).attr('fill', '#3c7d23');
+	    $("#map2").addClass('is-hover');
 	  }, function() {
 	    $(this).attr('fill', '#bacb43');
+	    $("#map2").removeClass('is-hover');
 	  }
 	);
 	$( "#map3" ).hover(
@@ -54,8 +57,10 @@ head.ready(function() {
 	$( "#s-map33" ).hover(
 	  function() {
 	    $(this).attr('fill', '#3c7d23');
+	    $("#map3").addClass('is-hover');
 	  }, function() {
 	    $(this).attr('fill', '#bacb43');
+	    $("#map3").removeClass('is-hover');
 	  }
 	);
 	$( "#map4" ).hover(
@@ -68,8 +73,10 @@ head.ready(function() {
 	$( "#s-map44" ).hover(
 	  function() {
 	    $(this).attr('fill', '#3c7d23');
+	    $("#map4").addClass('is-hover');
 	  }, function() {
 	    $(this).attr('fill', '#bacb43');
+	    $("#map4").removeClass('is-hover');
 	  }
 	);
 	$( "#map5" ).hover(
@@ -82,8 +89,10 @@ head.ready(function() {
 	$( "#s-map55" ).hover(
 	  function() {
 	    $(this).attr('fill', '#3c7d23');
+	    $("#map5").addClass('is-hover');
 	  }, function() {
 	    $(this).attr('fill', '#bacb43');
+	    $("#map5").removeClass('is-hover');
 	  }
 	);
 	$( "#map6" ).hover(
@@ -96,8 +105,10 @@ head.ready(function() {
 	$( "#s-map66" ).hover(
 	  function() {
 	    $(this).attr('fill', '#3c7d23');
+	    $("#map6").addClass('is-hover');
 	  }, function() {
 	    $(this).attr('fill', '#bacb43');
+	    $("#map6").removeClass('is-hover');
 	  }
 	);
 	$( "#map7" ).hover(
@@ -110,8 +121,10 @@ head.ready(function() {
 	$( "#s-map77" ).hover(
 	  function() {
 	    $(this).attr('fill', '#3c7d23');
+	    $("#map7").addClass('is-hover');
 	  }, function() {
 	    $(this).attr('fill', '#bacb43');
+	    $("#map7").removeClass('is-hover');
 	  }
 	);
 	$( "#map8" ).hover(
@@ -124,8 +137,10 @@ head.ready(function() {
 	$( "#s-map88" ).hover(
 	  function() {
 	    $(this).attr('fill', '#3c7d23');
+	    $("#map8").addClass('is-hover');
 	  }, function() {
 	    $(this).attr('fill', '#bacb43');
+	    $("#map8").removeClass('is-hover');
 	  }
 	);
 	$( "#map9" ).hover(
@@ -138,8 +153,10 @@ head.ready(function() {
 	$( "#s-map99" ).hover(
 	  function() {
 	    $(this).attr('fill', '#3c7d23');
+	    $("#map9").addClass('is-hover');
 	  }, function() {
 	    $(this).attr('fill', '#bacb43');
+	    $("#map9").removeClass('is-hover');
 	  }
 	);
 	$( "#map10" ).hover(
@@ -152,8 +169,10 @@ head.ready(function() {
 	$( "#s-map111" ).hover(
 	  function() {
 	    $(this).attr('fill', '#3c7d23');
+	    $("#map10").addClass('is-hover');
 	  }, function() {
 	    $(this).attr('fill', '#bacb43');
+	    $("#map10").removeClass('is-hover');
 	  }
 	);
 	$( "#map12" ).hover(
@@ -166,8 +185,10 @@ head.ready(function() {
 	$( "#s-map222" ).hover(
 	  function() {
 	    $(this).attr('fill', '#3c7d23');
+	    $("#map12").addClass('is-hover');
 	  }, function() {
 	    $(this).attr('fill', '#bacb43');
+	    $("#map12").removeClass('is-hover');
 	  }
 	);
 	$( "#map13" ).hover(
@@ -180,8 +201,10 @@ head.ready(function() {
 	$( "#s-map333" ).hover(
 	  function() {
 	    $(this).attr('fill', '#3c7d23');
+	    $("#map13").addClass('is-hover');
 	  }, function() {
 	    $(this).attr('fill', '#bacb43');
+	    $("#map13").removeClass('is-hover');
 	  }
 	);
 	$( "#map14" ).hover(
@@ -194,8 +217,10 @@ head.ready(function() {
 	$( "#s-map444" ).hover(
 	  function() {
 	    $(this).attr('fill', '#3c7d23');
+	    $("#map14").addClass('is-hover');
 	  }, function() {
 	    $(this).attr('fill', '#bacb43');
+	    $("#map14").removeClass('is-hover');
 	  }
 	);
 	$( "#map15" ).hover(
@@ -208,22 +233,25 @@ head.ready(function() {
 	$( "#s-map555" ).hover(
 	  function() {
 	    $(this).attr('fill', '#3c7d23');
+	    $("#map15").addClass('is-hover');
 	  }, function() {
 	    $(this).attr('fill', '#bacb43');
+	    $("#map15").removeClass('is-hover');
 	  }
 	);
 	$( "#map16" ).hover(
 	  function() {
 	    $("#s-map666").attr('fill', '#3c7d23');
 	  }, function() {
-	    $("#s-map666").attr('fill', '#bacb43');
-	  }
+	    $("#s-map666").attr('fill', '#bacb43');	  }
 	);
 	$( "#s-map666" ).hover(
 	  function() {
 	    $(this).attr('fill', '#3c7d23');
+	    $("#map16").addClass('is-hover');
 	  }, function() {
 	    $(this).attr('fill', '#bacb43');
+	    $("#map16").removeClass('is-hover');
 	  }
 	);
 	$( "#map17" ).hover(
@@ -236,8 +264,10 @@ head.ready(function() {
 	$( "#s-map777" ).hover(
 	  function() {
 	    $(this).attr('fill', '#3c7d23');
+	    $("#map17").addClass('is-hover');
 	  }, function() {
 	    $(this).attr('fill', '#bacb43');
+	    $("#map17").removeClass('is-hover');
 	  }
 	);
 	$( "#map18" ).hover(
@@ -250,8 +280,10 @@ head.ready(function() {
 	$( "#s-map888" ).hover(
 	  function() {
 	    $(this).attr('fill', '#3c7d23');
+	    $("#map18").addClass('is-hover');
 	  }, function() {
 	    $(this).attr('fill', '#bacb43');
+	    $("#map18").removeClass('is-hover');
 	  }
 	);
 	$( "#map19" ).hover(
@@ -264,8 +296,10 @@ head.ready(function() {
 	$( "#s-map999" ).hover(
 	  function() {
 	    $(this).attr('fill', '#3c7d23');
+	    $("#map19").addClass('is-hover');
 	  }, function() {
 	    $(this).attr('fill', '#bacb43');
+	    $("#map19").removeClass('is-hover');
 	  }
 	);
 	$( "#map20" ).hover(
@@ -278,8 +312,10 @@ head.ready(function() {
 	$( "#s-map1111" ).hover(
 	  function() {
 	    $(this).attr('fill', '#3c7d23');
+	    $("#map20").addClass('is-hover');
 	  }, function() {
 	    $(this).attr('fill', '#bacb43');
+	    $("#map20").removeClass('is-hover');
 	  }
 	);
 	$( "#map21" ).hover(
@@ -292,8 +328,10 @@ head.ready(function() {
 	$( "#s-map2222" ).hover(
 	  function() {
 	    $(this).attr('fill', '#3c7d23');
+	    $("#map21").addClass('is-hover');
 	  }, function() {
 	    $(this).attr('fill', '#bacb43');
+	    $("#map21").removeClass('is-hover');
 	  }
 	);
 	$( "#map22" ).hover(
@@ -306,8 +344,10 @@ head.ready(function() {
 	$( "#s-map3333" ).hover(
 	  function() {
 	    $(this).attr('fill', '#3c7d23');
+	    $("#map22").addClass('is-hover');
 	  }, function() {
 	    $(this).attr('fill', '#bacb43');
+	    $("#map22").removeClass('is-hover');
 	  }
 	);
 	$( "#map23" ).hover(
@@ -320,8 +360,10 @@ head.ready(function() {
 	$( "#s-map4444" ).hover(
 	  function() {
 	    $(this).attr('fill', '#3c7d23');
+	    $("#map23").addClass('is-hover');
 	  }, function() {
 	    $(this).attr('fill', '#bacb43');
+	    $("#map23").removeClass('is-hover');
 	  }
 	);
 	$( "#map24" ).hover(
@@ -334,8 +376,25 @@ head.ready(function() {
 	$( "#s-map5555" ).hover(
 	  function() {
 	    $(this).attr('fill', '#3c7d23');
+	    $("#map24").addClass('is-hover');
 	  }, function() {
 	    $(this).attr('fill', '#bacb43');
+	    $("#map24").removeClass('is-hover');
+	  }
+	);
+	$( "#map11" ).hover(
+	  function() {
+	    $("#s-map6666").attr('fill', '#3c7d23');
+	  }, function() {
+	    $("#s-map6666").attr('fill', '#bacb43');
+	  }
+	);
+	$( "#s-map11" ).hover(
+	  function() {
+	    $(this).attr('fill', '#3c7d23');
+	    $("#s-map6666").addClass('is-hover');
+	  }, function() {
+	    $("#s-map6666").removeClass('is-hover');
 	  }
 	);
 });
