@@ -603,6 +603,7 @@ head.ready(function() {
 	    $(this).attr('fill', '#3c7d23');
 	    $("#s-map6666").addClass('is-hover');
 	  }, function() {
+	  	$(this).attr('fill', '#bacb43');
 	    $("#s-map6666").removeClass('is-hover');
 	  }
 	);
