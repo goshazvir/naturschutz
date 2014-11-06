@@ -16,6 +16,215 @@ head.ready(function() {
 	  return false;
 	 });
 
+	$(function() { 
+		var mouseOnDiv = $('#s-map11');
+		var tipContent = ('powerTip11');
+		mouseOnDiv.data('powertiptarget', tipContent);
+		mouseOnDiv.powerTip({
+			placement: 'e',
+			mouseOnToPopup: true
+		});
+	});
+	$(function() { 
+		var mouseOnDiv = $('#s-map22');
+		var tipContent = ('powerTip22');
+		mouseOnDiv.data('powertiptarget', tipContent);
+		mouseOnDiv.powerTip({
+			placement: 'e',
+			mouseOnToPopup: true
+		});
+	});
+	$(function() { 
+		var mouseOnDiv = $('#s-map33');
+		var tipContent = ('powerTip33');
+		mouseOnDiv.data('powertiptarget', tipContent);
+		mouseOnDiv.powerTip({
+			placement: 'e',
+			mouseOnToPopup: true
+		});
+	});
+	$(function() { 
+		var mouseOnDiv = $('#s-map44');
+		var tipContent = ('powerTip44');
+		mouseOnDiv.data('powertiptarget', tipContent);
+		mouseOnDiv.powerTip({
+			placement: 'e',
+			mouseOnToPopup: true
+		});
+	});
+	$(function() { 
+		var mouseOnDiv = $('#s-map55');
+		var tipContent = ('powerTip55');
+		mouseOnDiv.data('powertiptarget', tipContent);
+		mouseOnDiv.powerTip({
+			placement: 'e',
+			mouseOnToPopup: true
+		});
+	});
+	$(function() { 
+		var mouseOnDiv = $('#s-map66');
+		var tipContent = ('powerTip66');
+		mouseOnDiv.data('powertiptarget', tipContent);
+		mouseOnDiv.powerTip({
+			placement: 'e',
+			mouseOnToPopup: true
+		});
+	});
+	$(function() { 
+		var mouseOnDiv = $('#s-map77');
+		var tipContent = ('powerTip77');
+		mouseOnDiv.data('powertiptarget', tipContent);
+		mouseOnDiv.powerTip({
+			placement: 'e',
+			mouseOnToPopup: true
+		});
+	});
+	$(function() { 
+		var mouseOnDiv = $('#s-map88');
+		var tipContent = ('powerTip88');
+		mouseOnDiv.data('powertiptarget', tipContent);
+		mouseOnDiv.powerTip({
+			placement: 'e',
+			mouseOnToPopup: true
+		});
+	});
+	$(function() { 
+		var mouseOnDiv = $('#s-map99');
+		var tipContent = ('powerTip99');
+		mouseOnDiv.data('powertiptarget', tipContent);
+		mouseOnDiv.powerTip({
+			placement: 'e',
+			mouseOnToPopup: true
+		});
+	});
+	$(function() { 
+		var mouseOnDiv = $('#s-map111');
+		var tipContent = ('powerTip111');
+		mouseOnDiv.data('powertiptarget', tipContent);
+		mouseOnDiv.powerTip({
+			placement: 'e',
+			mouseOnToPopup: true
+		});
+	});
+	$(function() { 
+		var mouseOnDiv = $('#s-map222');
+		var tipContent = ('powerTip222');
+		mouseOnDiv.data('powertiptarget', tipContent);
+		mouseOnDiv.powerTip({
+			placement: 'e',
+			mouseOnToPopup: true
+		});
+	});
+	$(function() { 
+		var mouseOnDiv = $('#s-map333');
+		var tipContent = ('powerTip333');
+		mouseOnDiv.data('powertiptarget', tipContent);
+		mouseOnDiv.powerTip({
+			placement: 'e',
+			mouseOnToPopup: true
+		});
+	});
+	$(function() { 
+		var mouseOnDiv = $('#s-map444');
+		var tipContent = ('powerTip444');
+		mouseOnDiv.data('powertiptarget', tipContent);
+		mouseOnDiv.powerTip({
+			placement: 'e',
+			mouseOnToPopup: true
+		});
+	});
+	$(function() { 
+		var mouseOnDiv = $('#s-map555');
+		var tipContent = ('powerTip555');
+		mouseOnDiv.data('powertiptarget', tipContent);
+		mouseOnDiv.powerTip({
+			placement: 'e',
+			mouseOnToPopup: true
+		});
+	});
+	$(function() { 
+		var mouseOnDiv = $('#s-map666');
+		var tipContent = ('powerTip666');
+		mouseOnDiv.data('powertiptarget', tipContent);
+		mouseOnDiv.powerTip({
+			placement: 'e',
+			mouseOnToPopup: true
+		});
+	});
+	$(function() { 
+		var mouseOnDiv = $('#s-map777');
+		var tipContent = ('powerTip777');
+		mouseOnDiv.data('powertiptarget', tipContent);
+		mouseOnDiv.powerTip({
+			placement: 'e',
+			mouseOnToPopup: true
+		});
+	});
+	$(function() { 
+		var mouseOnDiv = $('#s-map888');
+		var tipContent = ('powerTip888');
+		mouseOnDiv.data('powertiptarget', tipContent);
+		mouseOnDiv.powerTip({
+			placement: 'e',
+			mouseOnToPopup: true
+		});
+	});
+	$(function() { 
+		var mouseOnDiv = $('#s-map999');
+		var tipContent = ('powerTip999');
+		mouseOnDiv.data('powertiptarget', tipContent);
+		mouseOnDiv.powerTip({
+			placement: 'e',
+			mouseOnToPopup: true
+		});
+	});
+	$(function() { 
+		var mouseOnDiv = $('#s-map1111');
+		var tipContent = ('powerTip1111');
+		mouseOnDiv.data('powertiptarget', tipContent);
+		mouseOnDiv.powerTip({
+			placement: 'e',
+			mouseOnToPopup: true
+		});
+	});
+	$(function() { 
+		var mouseOnDiv = $('#s-map2222');
+		var tipContent = ('powerTip2222');
+		mouseOnDiv.data('powertiptarget', tipContent);
+		mouseOnDiv.powerTip({
+			placement: 'e',
+			mouseOnToPopup: true
+		});
+	});
+	$(function() { 
+		var mouseOnDiv = $('#s-map3333');
+		var tipContent = ('powerTip3333');
+		mouseOnDiv.data('powertiptarget', tipContent);
+		mouseOnDiv.powerTip({
+			placement: 'e',
+			mouseOnToPopup: true
+		});
+	});
+	$(function() { 
+		var mouseOnDiv = $('#s-map4444');
+		var tipContent = ('powerTip4444');
+		mouseOnDiv.data('powertiptarget', tipContent);
+		mouseOnDiv.powerTip({
+			placement: 'e',
+			mouseOnToPopup: true
+		});
+	});
+	$(function() { 
+		var mouseOnDiv = $('#s-map5555');
+		var tipContent = ('powerTip5555');
+		mouseOnDiv.data('powertiptarget', tipContent);
+		mouseOnDiv.powerTip({
+			placement: 'e',
+			mouseOnToPopup: true
+		});
+	});
+
+
 	$( "#map1" ).hover(
 	  function() {
 	    $("#s-map11").attr('fill', '#3c7d23');
