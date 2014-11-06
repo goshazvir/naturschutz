@@ -2216,3 +2216,5 @@ body { margin: 0; font-size: 14px; font-family: Arial, sans-serif; line-height: 
 .map-nav-wrap .map-nav-list .map-nav-link:hover, .map-nav-wrap .map-nav-list .map-nav-link.is-hover { text-decoration: underline; color: #aac300; }
 
 .map img { max-width: 100%; }
+
+.map-toolip { display: none; }
