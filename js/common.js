@@ -5,7 +5,7 @@ head.ready(function() {
 	   });
 	});
 	$('.nav-list-item').on('click', function() {
-	 $(this).toggleClass("is-drop");
+	 // $(this).toggleClass("is-drop");
 	});
 
 	$(".js-top").click(function (){
