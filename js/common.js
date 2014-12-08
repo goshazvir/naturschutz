@@ -5,7 +5,7 @@ head.ready(function() {
 	   });
 	});
 	$('.nav-list-item').on('click', function() {
-	 $(this).toggleClass("is-drop");
+	 // $(this).toggleClass("is-drop");
 	});
 
 	$(".js-top").click(function (){
@@ -603,6 +603,7 @@ head.ready(function() {
 	    $(this).attr('fill', '#3c7d23');
 	    $("#s-map6666").addClass('is-hover');
 	  }, function() {
+	  	$(this).attr('fill', '#bacb43');
 	    $("#s-map6666").removeClass('is-hover');
 	  }
 	);

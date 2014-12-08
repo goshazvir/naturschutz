@@ -2107,7 +2107,7 @@ body { margin: 0; font-size: 14px; font-family: Arial, sans-serif; line-height: 
 @media only screen and (max-width: 980px) { .footer .footer-copy { position: static; width: 100%; font-size: 11px; text-align: center; } }
 .footer .footer-copy p { margin: 0; }
 
-.top { display: none; background: url('../img/icons-s38cab7a714.png') 0 -1047px no-repeat; width: 34px; height: 51px; position: absolute; bottom: 12px; right: 20px; cursor: pointer; }
+.top { background: url('../img/icons-s38cab7a714.png') 0 -1047px no-repeat; width: 34px; height: 51px; position: absolute; bottom: 12px; right: 20px; cursor: pointer; }
 @media only screen and (max-width: 980px) { .top { display: block; } }
 
 .fb { background: url('../img/icons-s38cab7a714.png') 0 -29px no-repeat; width: 26px; height: 26px; }
@@ -2163,13 +2163,13 @@ body { margin: 0; font-size: 14px; font-family: Arial, sans-serif; line-height: 
 .f-share { font-size: 0; display: inline-block; background: url('../img/icons-s38cab7a714.png') 0 0 no-repeat; width: 55px; height: 19px; }
 .f-share:hover { opacity: 0.8; filter: alpha(opacity=80); }
 
-.bird { height: 250px; margin-bottom: 20px; position: relative; cursor: pointer; }
+.bird { height: 250px; margin-bottom: 20px; position: relative; cursor: pointer; overflow: hidden; }
 @media only screen and (max-width: 768px) { .bird { margin-bottom: 20px; } }
 .bird:hover .bird-content { display: block; }
-.bird:hover .bird-overlay { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
+.bird:hover .bird-overlay { height: 100%; transition: height 0.5s ease-in; position: absolute; bottom: 0; left: 0; right: 0; }
 .bird:hover .bird-title { position: static; background: transparent; }
 .bird .bird-media { height: 250px; overflow: hidden; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
-.bird .bird-overlay { background: rgba(60, 125, 35, 0.8); color: white; }
+.bird .bird-overlay { height: 0; transition: height 0.5s ease-in; background: rgba(60, 125, 35, 0.8); color: white; }
 .bird .bird-title { position: absolute; bottom: 0; left: 0; right: 0; background: rgba(60, 125, 35, 0.8); padding: 10px; margin-bottom: 0px; font-size: 13px; font-weight: bold; text-transform: uppercase; }
 .bird .bird-content { display: none; padding: 10px; font-size: 13px; font-weight: bold; }
 .bird .bird-content p { margin-bottom: 20px; }
